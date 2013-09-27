@@ -11,8 +11,8 @@
 								<moviePoster id="shelf_item_1"
 								accessibilityLabel="Movies"
 								featured="true"
-								onSelect="atv.loadURL('http://trailers.apple.com/Movies.xml');"
-								onPlay="atv.loadURL('http://trailers.apple.com/Movies.xml');">
+								onSelect="atv.loadURL('https://trailers.apple.com/Movies.xml');"
+								onPlay="atv.loadURL('https://trailers.apple.com/Movies.xml');">
 									<image>http://trailers.apple.com/Movies.jpg</image>
 									<defaultImage>resource://16X9.png</defaultImage>
 								</moviePoster>
@@ -20,8 +20,8 @@
 								<moviePoster id="shelf_item_2"
 								accessibilityLabel="TVShows"
 								featured="true"
-								onSelect="atv.loadURL('http://trailers.apple.com/TVShows.xml');"
-								onPlay="atv.loadURL('http://trailers.apple.com/TVShows.xml');">
+								onSelect="atv.loadURL('https://trailers.apple.com/TVShows.xml');"
+								onPlay="atv.loadURL('https://trailers.apple.com/TVShows.xml');">
 									<image>http://trailers.apple.com/TVShows.jpg</image>
 									<defaultImage>resource://16X9.png</defaultImage>
 								</moviePoster>
@@ -35,3 +35,4 @@
 		</scroller>	 
 	</body>	
 </atv>
+

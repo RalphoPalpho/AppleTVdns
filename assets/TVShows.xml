@@ -11,51 +11,51 @@
 								<moviePoster id="shelf_item_2-1"
 								accessibilityLabel="bigbang"
 								related="true"
-								onSelect="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');"
-								onPlay="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');">
+								onSelect="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');"
+								onPlay="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');">
 									<title>The Big Bang Theory</title>
 									<subtitle>3 Episodes</subtitle>
-									<image>http://trailers.apple.com/TVShows/BigBang.jpg</image>
+									<image>https://trailers.apple.com/TVShows/BigBang.jpg</image>
 									<defaultImage>resource://Poster.png</defaultImage>
 								</moviePoster>
 								<moviePoster id="shelf_item_2-1"
 								accessibilityLabel="bigbang"
 								related="true"
-								onSelect="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');"
-								onPlay="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');">
+								onSelect="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');"
+								onPlay="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');">
 									<title>The Big Bang Theory</title>
 									<subtitle>3 Episodes</subtitle>
-									<image>http://trailers.apple.com/TVShows/BigBang.jpg</image>
+									<image>https://trailers.apple.com/TVShows/BigBang.jpg</image>
 									<defaultImage>resource://Poster.png</defaultImage>
 								</moviePoster>
 								<moviePoster id="shelf_item_2-1"
 								accessibilityLabel="bigbang"
 								related="true"
-								onSelect="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');"
-								onPlay="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');">
+								onSelect="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');"
+								onPlay="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');">
 									<title>The Big Bang Theory</title>
 									<subtitle>3 Episodes</subtitle>
-									<image>http://trailers.apple.com/TVShows/BigBang.jpg</image>
+									<image>https://trailers.apple.com/TVShows/BigBang.jpg</image>
 									<defaultImage>resource://Poster.png</defaultImage>
 								</moviePoster>
 								<moviePoster id="shelf_item_2-1"
 								accessibilityLabel="bigbang"
 								related="true"
-								onSelect="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');"
-								onPlay="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');">
+								onSelect="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');"
+								onPlay="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');">
 									<title>The Big Bang Theory</title>
 									<subtitle>3 Episodes</subtitle>
-									<image>http://trailers.apple.com/TVShows/BigBang.jpg</image>
+									<image>https://trailers.apple.com/TVShows/BigBang.jpg</image>
 									<defaultImage>resource://Poster.png</defaultImage>
 								</moviePoster>
 								<moviePoster id="shelf_item_2-1"
 								accessibilityLabel="bigbang"
 								related="true"
-								onSelect="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');"
-								onPlay="atv.loadURL('http://trailers.apple.com/TVShows/SeasonSelect.xml');">
+								onSelect="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');"
+								onPlay="atv.loadURL('https://trailers.apple.com/TVShows/SeasonSelect.xml');">
 									<title>The Big Bang Theory</title>
 									<subtitle>3 Episodes</subtitle>
-									<image>http://trailers.apple.com/TVShows/BigBang.jpg</image>
+									<image>https://trailers.apple.com/TVShows/BigBang.jpg</image>
 									<defaultImage>resource://Poster.png</defaultImage>
 								</moviePoster>
 								
@@ -68,3 +68,4 @@
 		</scroller>	 
 	</body>	
 </atv>
+
