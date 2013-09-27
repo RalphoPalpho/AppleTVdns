@@ -3,10 +3,10 @@
   <body>
     <videoPlayer id="com.sample.video-player">
 		<httpFileVideoAsset id="TronLegacy">
-			<mediaURL>http://trailers.apple.com/test.m4v</mediaURL>
+			<mediaURL>https://trailers.apple.com/test.m4v</mediaURL>
 			<title>Tron: Legacy</title>
 			<description>Sam Flynn, the tech-savvy son of Kevin Flynn, looks into his father's disappearance and finds himself pulled into the same world of fierce programs and gladiatorial games where Kevin has been living for 25 years. Along with Kevin's loyal confidant, father and son embark on a life-and-death journey across a visually-stunning cyber universe that has become far more advanced.</description>
-			<image>http://trailers.apple.com/Movies/TronLegacy.jpg</image>
+			<image>https://trailers.apple.com/Movies/TronLegacy.jpg</image>
 		</httpFileVideoAsset>
 	</videoPlayer>
   </body>

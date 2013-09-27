@@ -6,7 +6,7 @@
 		<subtitle>Walt Disney Pictures</subtitle>
 		<rating>PG</rating>
 		<summary>Sam Flynn, the tech-savvy son of Kevin Flynn, looks into his father's disappearance and finds himself pulled into the same world of fierce programs and gladiatorial games where Kevin has been living for 25 years. Along with Kevin's loyal confidant, father and son embark on a life-and-death journey across a visually-stunning cyber universe that has become far more advanced.</summary>
-		<image style="moviePoster">http://trailers.apple.com/Movies/TronLegacy.jpg</image>
+		<image style="moviePoster">https://trailers.apple.com/Movies/TronLegacy.jpg</image>
 		<defaultImage>resource://Poster.png</defaultImage>
       
 		<table>
@@ -51,7 +51,7 @@
 			<sections>
 				<shelfSection>
 					<items>
-						<actionButton id="play" onSelect="atv.loadURL('http://trailers.apple.com/Movies/MoviePlay.xml');">
+						<actionButton id="play" onSelect="atv.loadURL('https://trailers.apple.com/Movies/MoviePlay.xml');">
 							<title>Play</title>
 							<image>resource://Play.png</image>
 							<focusedImage>resource://PlayFocused.png</focusedImage>
@@ -77,40 +77,40 @@
 								<moviePoster id="shelf_item_1"
 									 accessibilityLabel="actor1"
 									 related="true"
-									 onSelect="atv.loadURL('http://trailers.apple.com/Movies/MoviePrePlay.xml');"
-									 onPlay="atv.loadURL('http://trailers.apple.com/Movies/MoviePlay.xml');">
+									 onSelect="atv.loadURL('https://trailers.apple.com/Movies/MoviePrePlay.xml');"
+									 onPlay="atv.loadURL('https://trailers.apple.com/Movies/MoviePlay.xml');">
 									<title>Garrett Hedlund</title>
-									<image>http://trailers.apple.com/Movies/Actors/actor1.jpg</image>
+									<image>https://trailers.apple.com/Movies/Actors/actor1.jpg</image>
 									<defaultImage>resource://Poster.png</defaultImage>
 								</moviePoster>
 
 								<moviePoster id="shelf_item_1"
 									 accessibilityLabel="actor2"
 									 related="true"
-									 onSelect="atv.loadURL('http://trailers.apple.com/Movies/MoviePrePlay.xml');"
-									 onPlay="atv.loadURL('http://trailers.apple.com/Movies/MoviePlay.xml');">
+									 onSelect="atv.loadURL('https://trailers.apple.com/Movies/MoviePrePlay.xml');"
+									 onPlay="atv.loadURL('https://trailers.apple.com/Movies/MoviePlay.xml');">
 									 <title>Jeff Bridges</title>
-									<image>http://trailers.apple.com/Movies/Actors/actor2.jpg</image>
+									<image>https://trailers.apple.com/Movies/Actors/actor2.jpg</image>
 									<defaultImage>resource://Poster.png</defaultImage>
 								</moviePoster>
 		
 								<moviePoster id="shelf_item_1"
 									 accessibilityLabel="actor3"
 									 related="true"
-									 onSelect="atv.loadURL('http://trailers.apple.com/Movies/MoviePrePlay.xml');"
-									 onPlay="atv.loadURL('http://trailers.apple.com/Movies/MoviePlay.xml');">
+									 onSelect="atv.loadURL('https://trailers.apple.com/Movies/MoviePrePlay.xml');"
+									 onPlay="atv.loadURL('https://trailers.apple.com/Movies/MoviePlay.xml');">
 									<title>Olivia Wilde</title>
-									<image>http://trailers.apple.com/Movies/Actors/actor3.jpg</image>
+									<image>https://trailers.apple.com/Movies/Actors/actor3.jpg</image>
 									<defaultImage>resource://Poster.png</defaultImage>
 								</moviePoster>
 
 								<moviePoster id="shelf_item_1"
 									 accessibilityLabel="actor4"
 									 related="true"
-									 onSelect="atv.loadURL('http://trailers.apple.com/Movies/MoviePrePlay.xml');"
-									 onPlay="atv.loadURL('http://trailers.apple.com/Movies/MoviePlay.xml');">
+									 onSelect="atv.loadURL('https://trailers.apple.com/Movies/MoviePrePlay.xml');"
+									 onPlay="atv.loadURL('https://trailers.apple.com/Movies/MoviePlay.xml');">
 									<title>Bruce Boxleitner</title>
-									<image>http://trailers.apple.com/Movies/Actors/actor4.jpg</image>
+									<image>https://trailers.apple.com/Movies/Actors/actor4.jpg</image>
 									<defaultImage>resource://Poster.png</defaultImage>
 								</moviePoster>
 							</items>
@@ -121,3 +121,4 @@
 		</itemDetail>
 	</body>
 </atv>
+

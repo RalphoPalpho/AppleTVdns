@@ -3,10 +3,10 @@
   <body>
     <videoPlayer id="com.sample.video-player">
 		<httpFileVideoAsset id="TronLegacy">
-			<mediaURL>http://trailers.apple.com/test.m4v</mediaURL>
+			<mediaURL>https://trailers.apple.com/test.m4v</mediaURL>
 			<title>The Big Bang Theory</title>
 			<description>Episode description goes here.</description>
-			<image>http://trailers.apple.com/TVShows/BigBang.jpg</image>
+			<image>https://trailers.apple.com/TVShows/BigBang.jpg</image>
 		</httpFileVideoAsset>
 	</videoPlayer>
   </body>

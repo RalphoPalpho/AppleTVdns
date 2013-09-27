@@ -6,7 +6,7 @@ function parseRange(str, size) {
         return;
     }
     if (str.substr(0, 6) == "bytes=") {
-    	str = str.substr(6, str.length - 6);
+        str = str.substr(6, str.length - 6);
     }
     var range = str.split("-"),
         start = parseInt(range[0], 10),
@@ -26,19 +26,21 @@ function parseRange(str, size) {
     }
 
     return {start: start, end: end};
-};
+}
 
 function startWebServer(localIp) {
 
 	var url    = require("url");
-	var http   = require("http");
+	var https   = require("https");
 	var path   = require("path");
 	var fs     = require("fs");
-
+        var options = {
+          key: fs.readFileSync('./private.key'),
+          cert: fs.readFileSync('./public.pem')
+        };
 	var mime   = require("./mime").types;
-	var server = http.createServer(function(request, response) {
+	var server = https.createServer(options, function(request, response) {
 		var pathname = url.parse(request.url).pathname;
-		console.log(request.url);
 		if (pathname.charAt(pathname.length - 1) == "/") {
 			pathname += "index.html";
 		}		
@@ -81,8 +83,8 @@ function startWebServer(localIp) {
 			}
 		});
 	});
-	server.listen(80);
-	console.log("WebServer listening on " + localIp + ":80");
+	server.listen(443);
+	console.log("WebServer listening on " + localIp + ":443");
 }
 
 function resolveDNSDomain(msg) {
